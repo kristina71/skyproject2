@@ -1,6 +1,8 @@
 import './App.css'
 import StudCard from './StudCard'
 import StudCardClass from './StudCardClass'
+import MinMax from './MinMax'
+import MinMaxClass from './MinMaxClass'
 
 function App() {
   return (
@@ -9,6 +11,9 @@ function App() {
       <StudCard text="Препод" name="Евгений" />
       <StudCard text="Студент" name="Кирилл" />
       <StudCardClass />
+
+      <MinMax max={10} min={1} />
+      <MinMaxClass />
     </div>
   )
 }
